@@ -1,3 +1,7 @@
-# Just boilerplate
+# AsyncStorage
+ReactNative AsyncStorage implementation for ReactJS
 
-2 branches: basic & react
+## Usage
+Use the same as ReactNative AsyncStorage
+
+https://facebook.github.io/react-native/docs/asyncstorage.html
