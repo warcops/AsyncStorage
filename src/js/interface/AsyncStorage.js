@@ -9,6 +9,14 @@ export default class AsyncStorageInterface{
     */
     static setItem(){}
 
+    /**
+     * Выбирает элемент и выполняет функцию обратного вызова после завершения. Возвращает объект-обещание.
+     *
+     * @param  { key, callback? } key - ключ. callback - функция обратного вызова
+     * @return { Promise }
+     *
+     * @static
+     */
     getItem(){}
 
     removeItem(){}
