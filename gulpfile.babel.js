@@ -13,18 +13,16 @@ requireDir('./tasks', { recurse: true });
 // Tasks
 gulp.task('build', () => {
 	global.production = false;
-	runSequence("html", "css", "js", "img");
+	runSequence("html", "js");
 });
 
 gulp.task('production', () => {
     global.production = true;
-    runSequence("html", "css", "js", 'img');
+    runSequence("html", "js");
 });
 
 // Watcher
 gulp.task('watch', () => {
-    gulp.watch(`${dirs.src}/css/**/*.css`, ["css"]);
-    gulp.watch(`${dirs.src}/**/*.html`, ["html"]);
     gulp.watch(`${dirs.src}/js/**/*.js`, ["js"]);
 });
 

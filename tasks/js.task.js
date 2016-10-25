@@ -40,10 +40,10 @@ gulp.task('js', () => {
 
     webpack({
         entry: {
-            app: `./${dirs.src}/js/main.js`
+            asyncstorage: `./${dirs.src}/js/main.js`
         },
         output: {
-            filename: `${dirs.dist}/js/[name].js`
+            filename: `${dirs.dist}/[name].js`
         },
         module: {
             loaders: [

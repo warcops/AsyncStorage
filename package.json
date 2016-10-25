@@ -4,12 +4,27 @@
       "es2015"
     ]
   },
-  "name": "Boilerplate",
-  "version": "1.0.0",
-  "engines": {
-    "node": ">=4.0.0"
+  "name": "AsyncStorage",
+  "description": "ReactNative AsyncStorage implementation for ReactJS",
+  "main": "dist/asyncstorage.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seokirill/AsyncStorage.git"
   },
-  "homepage": "https://github.com/seokirill/boilerplate",
+  "keywords": [
+    "React",
+    "AsyncStorage",
+    "storage"
+  ],
+  "author": "Kirill Kovalev <seokirillstarsnab@gmail.com>",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/seokirill/AsyncStorage",
+  "bugs": {
+    "url": "https://github.com/seokirill/AsyncStorages/issues"
+  },
   "license": {
     "type": "MIT"
   },
@@ -27,37 +42,28 @@
     "babel-preset-es2015-native-modules": "^6.9.1",
     "babel-preset-stage-3": "^6.11.0",
     "gulp": "^3.9.1",
-    "gulp-append-prepend": "^1.0.2",
-    "gulp-autoprefixer": "^3.1.0",
     "gulp-connect": "^4.2.0",
-    "gulp-csso": "^2.0.0",
     "gulp-foreach": "^0.1.0",
-    "gulp-htmlmin": "^2.0.0",
     "gulp-if": "^2.0.1",
-    "gulp-imagemin": "^3.0.2",
     "gulp-jscrush": "^1.0.0",
     "gulp-livereload": "^3.8.1",
-    "gulp-postcss": "^6.1.1",
     "gulp-rename": "^1.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-speckjs": "^1.0.1",
-    "imagemin-pngquant": "^5.0.0",
     "path": "^0.12.7",
-    "postcss-css-variables": "^0.5.1",
-    "postcss-partial-import": "^2.0.0",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.2.2",
     "webpack": "^2.1.0-beta.19"
   },
-  "dependencies": {
-    "normalize.css": "3.0.3",
-    "bootstrap": "^4.0.0-alpha.4"
-  },
+  "dependencies": {},
   "config": {
     "directories": {
       "dist": "dist",
       "src": "src",
       "tests": "tests"
     }
-  }
+  },
+  "files": [
+    "asyncstorage.js"
+  ]
 }
