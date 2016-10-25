@@ -6,7 +6,7 @@
   },
   "name": "AsyncStorage",
   "description": "ReactNative AsyncStorage implementation for ReactJS",
-  "main": "dist/asyncstorage.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:seokirill/AsyncStorage.git"

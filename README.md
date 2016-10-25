@@ -8,7 +8,7 @@ npm i --save AsyncStorage
 
 ## Usage
 ```javascript
-import AsyncStorage from 'AsyncStorage';
+import { AsyncStorage } from 'AsyncStorage';
 ````
 ### Then
 Use the same as ReactNative AsyncStorage
