@@ -64,6 +64,6 @@
     }
   },
   "files": [
-    "asyncstorage.js"
+    "dist/asyncstorage.js"
   ]
 }
