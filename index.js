@@ -47,4 +47,9 @@ export class AsyncStorage extends AsyncStorageInterface {
             resolve();
         });
     }
+
+    static multiRemove(keys, callback) {
+        const removePromises = keys.map(key => AsyncStorage.removeItem(key, callback));
+        return Promise.all(removePromises);
+    }
 }
